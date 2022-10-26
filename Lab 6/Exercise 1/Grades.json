@@ -1,0 +1,30 @@
+[
+  {
+    "StudentID": 1,
+    "AssessmentDate": "26.10.2022",
+    "SubjectName": "Math",
+    "Assessment": "A",
+    "Comments": "Very Good"
+  },
+  {
+    "StudentID": 1,
+    "AssessmentDate": "26.10.2022",
+    "SubjectName": "English",
+    "Assessment": "B+",
+    "Comments": "OK"
+  },
+  {
+    "StudentID": 1,
+    "AssessmentDate": "26.10.2022",
+    "SubjectName": "Geography",
+    "Assessment": "C-",
+    "Comments": "Could do better"
+  },
+  {
+    "StudentID": 1,
+    "AssessmentDate": "26.10.2022",
+    "SubjectName": "History",
+    "Assessment": "D-",
+    "Comments": "Needs to work harder"
+  }
+]
