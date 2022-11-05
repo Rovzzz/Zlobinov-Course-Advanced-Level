@@ -1,0 +1,20 @@
+﻿Grades.WPF
+
+
+winexe
+C#
+.cs
+C:\Users\admin\Desktop\Mod09\Labfiles\Starter\Exercise 1\Grades.WPF\obj\x86\Debug\
+Grades.WPF
+none
+false
+DEBUG;TRACE
+C:\Users\admin\Desktop\Mod09\Labfiles\Starter\Exercise 1\Grades.WPF\App.xaml
+102019725572
+
+22184540579
+231747831288
+Controls\AddGradeDialog.xaml;Controls\AddStudentDialog.xaml;Controls\GrungeButton.xaml;Controls\StudentPhoto.xaml;Controls\SubjectList.xaml;MainWindow.xaml;Themes\Generic.xaml;Views\LogonPage.xaml;Views\StudentProfile.xaml;Views\StudentsPage.xaml;
+
+False
+

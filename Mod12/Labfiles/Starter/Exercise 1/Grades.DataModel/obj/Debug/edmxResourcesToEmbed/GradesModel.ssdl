@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GradesDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="GradesDBModelStoreContainer">
+    <EntitySet Name="Users" EntityType="GradesDBModel.Store.Users" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Grades" EntityType="GradesDBModel.Store.Grades" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Parents" EntityType="GradesDBModel.Store.Parents" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Students" EntityType="GradesDBModel.Store.Students" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Subjects" EntityType="GradesDBModel.Store.Subjects" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Teachers" EntityType="GradesDBModel.Store.Teachers" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="ParentStudent" EntityType="GradesDBModel.Store.ParentStudent" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <AssociationSet Name="FK_Parents_diameterUsers" Association="GradesDBModel.Store.FK_Parents_diameterUsers">
+      <End Role="diameterUsers" EntitySet="Users" />
+      <End Role="Parent" EntitySet="Parents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_diameterUsers" Association="GradesDBModel.Store.FK_Students_diameterUsers">
+      <End Role="diameterUsers" EntitySet="Users" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teachers_diameterUsers" Association="GradesDBModel.Store.FK_Teachers_diameterUsers">
+      <End Role="diameterUsers" EntitySet="Users" />
+      <End Role="Teacher" EntitySet="Teachers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StudentGrade" Association="GradesDBModel.Store.FK_StudentGrade">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Grade" EntitySet="Grades" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SubjectGrade" Association="GradesDBModel.Store.FK_SubjectGrade">
+      <End Role="Subject" EntitySet="Subjects" />
+      <End Role="Grade" EntitySet="Grades" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TeacherStudent" Association="GradesDBModel.Store.FK_TeacherStudent">
+      <End Role="Teacher" EntitySet="Teachers" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ParentStudent_Parent" Association="GradesDBModel.Store.FK_ParentStudent_Parent">
+      <End Role="Parent" EntitySet="Parents" />
+      <End Role="ParentStudent" EntitySet="ParentStudent" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ParentStudent_Student" Association="GradesDBModel.Store.FK_ParentStudent_Student">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="ParentStudent" EntitySet="ParentStudent" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="IsAnonymous" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Grades">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Assessment" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Comments" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="AssessmentDate" Type="datetime" Nullable="false" />
+    <Property Name="SubjectId" Type="int" Nullable="false" />
+    <Property Name="StudentUserId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Parents">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ImageName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TeacherUserId" Type="uniqueidentifier" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Class" Type="nvarchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="ParentStudent">
+    <Key>
+      <PropertyRef Name="Parents_UserId" />
+      <PropertyRef Name="Students_UserId" />
+    </Key>
+    <Property Name="Parents_UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Students_UserId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Parents_diameterUsers">
+    <End Role="diameterUsers" Type="GradesDBModel.Store.Users" Multiplicity="1" />
+    <End Role="Parent" Type="GradesDBModel.Store.Parents" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="diameterUsers">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Parent">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Students_diameterUsers">
+    <End Role="diameterUsers" Type="GradesDBModel.Store.Users" Multiplicity="1" />
+    <End Role="Student" Type="GradesDBModel.Store.Students" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="diameterUsers">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teachers_diameterUsers">
+    <End Role="diameterUsers" Type="GradesDBModel.Store.Users" Multiplicity="1" />
+    <End Role="Teacher" Type="GradesDBModel.Store.Teachers" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="diameterUsers">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StudentGrade">
+    <End Role="Student" Type="GradesDBModel.Store.Students" Multiplicity="1" />
+    <End Role="Grade" Type="GradesDBModel.Store.Grades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Grade">
+        <PropertyRef Name="StudentUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SubjectGrade">
+    <End Role="Subject" Type="GradesDBModel.Store.Subjects" Multiplicity="1" />
+    <End Role="Grade" Type="GradesDBModel.Store.Grades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subject">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Grade">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TeacherStudent">
+    <End Role="Teacher" Type="GradesDBModel.Store.Teachers" Multiplicity="0..1" />
+    <End Role="Student" Type="GradesDBModel.Store.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="TeacherUserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ParentStudent_Parent">
+    <End Role="Parent" Type="GradesDBModel.Store.Parents" Multiplicity="1" />
+    <End Role="ParentStudent" Type="GradesDBModel.Store.ParentStudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parent">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ParentStudent">
+        <PropertyRef Name="Parents_UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ParentStudent_Student">
+    <End Role="ParentStudent" Type="GradesDBModel.Store.ParentStudent" Multiplicity="*" />
+    <End Role="Student" Type="GradesDBModel.Store.Students" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ParentStudent">
+        <PropertyRef Name="Students_UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

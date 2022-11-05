@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\bin\Debug\Grades.DataModel.dll.config
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\bin\Debug\Grades.DataModel.dll
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\bin\Debug\Grades.DataModel.pdb
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\obj\Debug\Grades.DataModel.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\obj\Debug\Grades.DataModel.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\obj\Debug\Grades.DataModel.csproj.CopyComplete
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\obj\Debug\Grades.DataModel.dll
+C:\Users\admin\Desktop\Mod07\Labfiles\Starter\Exercise 3\Grades.DataModel\obj\Debug\Grades.DataModel.pdb
