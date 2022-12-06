@@ -1,0 +1,17 @@
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.csprojAssemblyReference.cache
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.csproj.CoreCompileInputs.cache
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.RazorAssemblyInfo.cache
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.RazorAssemblyInfo.cs
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.AssemblyInfoInputs.cache
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.AssemblyInfo.cs
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\hostpolicy.dll
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\hostfxr.dll
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.exe
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.deps.json
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.runtimeconfig.json
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.runtimeconfig.dev.json
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.dll
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\bin\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.pdb
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.RazorTargetAssemblyInfo.cache
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.dll
+C:\Allfiles\Mod05\Labfiles\Exercise1\Starter\BlueYonder.Flights.Service\obj\Release\netcoreapp2.1\win7-x64\BlueYonder.Flights.Service.pdb

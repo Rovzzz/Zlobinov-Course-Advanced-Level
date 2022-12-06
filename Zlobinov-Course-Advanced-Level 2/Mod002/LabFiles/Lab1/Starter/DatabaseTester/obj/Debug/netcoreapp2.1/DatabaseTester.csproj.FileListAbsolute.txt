@@ -1,0 +1,14 @@
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\bin\Debug\netcoreapp2.1\DatabaseTester.deps.json
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\bin\Debug\netcoreapp2.1\DatabaseTester.runtimeconfig.json
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\bin\Debug\netcoreapp2.1\DatabaseTester.runtimeconfig.dev.json
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\bin\Debug\netcoreapp2.1\DatabaseTester.dll
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\bin\Debug\netcoreapp2.1\DatabaseTester.pdb
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\bin\Debug\netcoreapp2.1\DAL.dll
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\bin\Debug\netcoreapp2.1\DAL.pdb
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\obj\Debug\netcoreapp2.1\DatabaseTester.csprojAssemblyReference.cache
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\obj\Debug\netcoreapp2.1\DatabaseTester.csproj.CoreCompileInputs.cache
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\obj\Debug\netcoreapp2.1\DatabaseTester.AssemblyInfoInputs.cache
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\obj\Debug\netcoreapp2.1\DatabaseTester.AssemblyInfo.cs
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\obj\Debug\netcoreapp2.1\DatabaseTester.csproj.CopyComplete
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\obj\Debug\netcoreapp2.1\DatabaseTester.dll
+C:\Allfiles\Mod02\LabFiles\Lab1\Starter\DatabaseTester\obj\Debug\netcoreapp2.1\DatabaseTester.pdb

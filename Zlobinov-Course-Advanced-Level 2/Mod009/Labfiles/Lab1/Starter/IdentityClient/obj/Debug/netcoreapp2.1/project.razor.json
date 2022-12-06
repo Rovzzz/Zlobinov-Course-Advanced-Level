@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\sela\\Azure-20487D\\20487D-Developing-Microsoft-Azure-and-Web-Services\\Allfiles\\Mod09\\Labfiles\\Lab1\\Starter\\IdentityClient\\IdentityClient.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

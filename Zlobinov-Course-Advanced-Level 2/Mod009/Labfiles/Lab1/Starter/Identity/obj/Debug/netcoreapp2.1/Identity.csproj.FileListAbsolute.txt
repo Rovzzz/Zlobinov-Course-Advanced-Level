@@ -1,0 +1,14 @@
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\bin\Debug\netcoreapp2.1\Identity.deps.json
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\bin\Debug\netcoreapp2.1\Identity.runtimeconfig.json
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\bin\Debug\netcoreapp2.1\Identity.runtimeconfig.dev.json
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\bin\Debug\netcoreapp2.1\Identity.dll
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\bin\Debug\netcoreapp2.1\Identity.pdb
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.csprojAssemblyReference.cache
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.csproj.CoreCompileInputs.cache
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.RazorAssemblyInfo.cache
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.RazorAssemblyInfo.cs
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.AssemblyInfoInputs.cache
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.AssemblyInfo.cs
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.RazorTargetAssemblyInfo.cache
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.dll
+C:\Allfiles\Mod09\Labfiles\Lab1\Starter\Identity\obj\Debug\netcoreapp2.1\Identity.pdb
